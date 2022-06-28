@@ -1,1 +1,2 @@
-var readline = require("readline-sync");
+const myArgs = process.argv.slice(2);
+console.log(myArgs);
